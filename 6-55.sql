@@ -1,0 +1,4 @@
+-- 6-55
+SELECT COUNT(DISTINCT propertyNo) AS myCount
+FROM viewing
+WHERE viewDate BETWEEN '2015-05-01' AND '2015-05-31';
